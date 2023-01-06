@@ -1,4 +1,5 @@
 * {
+    /* google font for all section  */
     font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -8,6 +9,7 @@ body {
     background: rgb(213, 241, 250);
 }
 
+/* banner area  */
 .banner-area {
     background-image: url("images/banner1.png");
     background-size: cover;
@@ -31,6 +33,7 @@ body {
     font-size: 72px;
 }
 
+/* banner button  */
 .btn {
     background-color: #22f1ee;
     border: none;
@@ -56,6 +59,7 @@ body {
     padding-right: 4%;
 }
 
+/* failur image area  */
 .image-area>img {
     width: 80%;
 }
@@ -77,6 +81,7 @@ body {
     color: #1cd98a;
 }
 
+/* Plan area  */
 .plan-title {
     text-align: center;
     font-size: 46px;
@@ -98,12 +103,22 @@ body {
     align-items: center;
 }
 
+.plan-area-content>h1 {
+    line-height: 0px;
+}
+
+.plan-area-content>h3 {
+    line-height: 0px;
+}
+
 .plan-heading {
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
     font-size: 40px;
 }
+
+/* roadmap area  */
 
 .plan-roadmap {
     display: grid;
@@ -130,6 +145,23 @@ body {
     font-size: 24px;
 }
 
+/* gradiant area  */
+.gradiant-area {
+    height: 301px;
+    background-image: url('images/watch.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+
+}
+.gradiant{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(  to right, #ef592288, #ebebea29 );
+}
+
+/* footer area  */
 .footer {
     display: grid;
     grid-template-columns: repeat(2, 2fr);
