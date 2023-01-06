@@ -158,9 +158,28 @@ body {
 .gradiant{
     height: 100%;
     width: 100%;
-    background-image: linear-gradient(  to right, #ef592288, #ebebea29 );
+    background-image: linear-gradient(  to right, #1ae691b8, #ebebea29 );
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center
 }
-
+.gradiant>div{
+    padding-left: 5%;
+}
+.gradiant>div>h1{
+    font-size: 36px;
+    color: #ffffff;
+}
+.gradiant>div>button{
+    background-color: #e5efef;
+    border: none;
+    padding: 20px 20px;
+    font-size: 25px;
+    font-weight: 500;
+    border-radius: 10px;
+    color: #1ae691;
+}
 /* footer area  */
 .footer {
     display: grid;
