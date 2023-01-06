@@ -1,0 +1,58 @@
+*{
+    font-family: 'Josefin Sans', sans-serif;
+}
+body{
+    max-width: 1600px;
+    margin: auto;
+}
+.banner-area{
+    background-image: url("images/banner.png");
+    background-size: cover;
+    width: 1600px;
+    height: 809px;
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #ffffff;
+
+}
+.banner-content{
+    padding: 8%;
+    width: 40%;
+}
+.banner-content >h1{
+font-size: 56px;
+}
+.btn{
+    background-color:#22f1ee;
+    border: none;
+    padding: 10px 20px;
+    font-size: 25px;
+    font-weight: 500;
+    border-radius: 10px;
+    color: #ffffff;
+}
+.failur-area{
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+    width: 1600px;
+}
+.image-area{
+    width: 40%;
+}
+.failur-area-text{
+    padding: 5%;
+    width: 40%;
+}
+.failur-area-text>h1{
+  font-size: 36px;
+}
+.failur-area-text{
+    padding: 5%;
+}
+.tick{
+    color: #1cd98a;
+}
